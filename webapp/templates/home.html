@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>SRI BALA CHANDRA HIGH SCHOOL</title>
+<link rel="icon" src="school.pnj">
+</head>
+<body style="background-color: rgb(234,224,200);">
+	<div >
+    <header style="color:rgb(68, 87, 108);padding: 10px;">
+    <h1 style="text-align:center;">SRI BALA CHANDRA HIGH SCHOOL</h1>
+    </header>
+    </div>
+	<hr>
+	<br>
+	<table style="border-collapse: separate; border-spacing: 0 25px;padding:20px;margin-left: auto; margin-right: auto; margin-top:40px;">
+		<tr style="line-height: 2.5em;">
+		<td>
+			<a href={% url 'insert' %}><button style="padding:20px;width:200px;border-radius:8px;">Insert Student Details</button></a>
+		</td>
+		</tr>
+		<tr style="line-height: 2.5em;">
+		<td>
+			<a href={% url "viewdata" %}><button style="padding:20px;width:200px;border-radius:8px;">View Student Details</button></a>
+		</td>
+		</tr>
+	</table>
+	
+</body>
+</html>
